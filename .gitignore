@@ -1,2 +1,9 @@
-.env*
-flake*
+.env
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform.lock.hcl
+terraform.tfvars
